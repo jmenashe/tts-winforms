@@ -6,14 +6,14 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{3463079C-D8AE-4E8A-9442-4B30859963BE}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Text_to_Speech</RootNamespace>
-    <AssemblyName>Text to Speech</AssemblyName>
-    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <RootNamespace>Tts.WinForms</RootNamespace>
+    <AssemblyName>Tts.WinForms</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\Technologies\Windows Forms\TextToSpeech\</PublishUrl>
+    <PublishUrl>bin\publish</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -24,7 +24,7 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <TargetCulture>en</TargetCulture>
-    <ProductName>Text to Speech</ProductName>
+    <ProductName>Tts.WinForms</ProductName>
     <PublisherName>Sagynbek</PublisherName>
     <ApplicationRevision>1</ApplicationRevision>
     <ApplicationVersion>1.1.1.%2a</ApplicationVersion>
@@ -32,6 +32,7 @@
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -85,9 +86,6 @@
   <PropertyGroup>
     <ManifestCertificateThumbprint>9788BFF2B12A7AB7E0672FD4199DB8E42118CF9F</ManifestCertificateThumbprint>
   </PropertyGroup>
-  <PropertyGroup>
-    <ManifestKeyFile>Text to Speech_1_TemporaryKey.pfx</ManifestKeyFile>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -127,6 +125,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -137,8 +136,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="Text to Speech_1_TemporaryKey.pfx" />
-    <None Include="Text to Speech_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

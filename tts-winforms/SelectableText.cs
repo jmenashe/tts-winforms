@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing;
 
-namespace Text_to_Speech
+namespace Tts.WinForms
 {
     enum SelectableTextState
     {

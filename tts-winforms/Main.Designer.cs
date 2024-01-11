@@ -1,4 +1,4 @@
-﻿namespace Text_to_Speech
+﻿namespace Tts.WinForms
 {
     partial class Main
     {

@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1145
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Text to Speech", "Text to Speech\Text to Speech.csproj", "{3463079C-D8AE-4E8A-9442-4B30859963BE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tts-winforms", "tts-winforms\tts-winforms.csproj", "{3463079C-D8AE-4E8A-9442-4B30859963BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

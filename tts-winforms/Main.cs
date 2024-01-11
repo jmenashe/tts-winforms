@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Speech.Synthesis.TtsEngine;
 using System.Diagnostics;
 
-namespace Text_to_Speech
+namespace Tts.WinForms
 {
     public partial class Main : Form
     {

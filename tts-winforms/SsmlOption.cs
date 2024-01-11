@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Text_to_Speech
+namespace Tts.WinForms
 {
     enum OptionType
     {
